@@ -1,7 +1,9 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchPlugin } from '@vuepress/plugin-search'
-import { path } from "@vuepress/utils";
+import { getDirname, path } from "@vuepress/utils";
+
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   base: "/",
@@ -25,6 +27,6 @@ export default defineUserConfig({
     }),
   ],
 
-  templateDev: "E:/projects/lifetime-blog/src/.vuepress/templateBuild.html",
+  templateDev: path.resolve(__dirname, './templateBuild.html'),
 
 });

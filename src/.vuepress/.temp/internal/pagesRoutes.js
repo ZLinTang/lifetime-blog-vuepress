@@ -1,7 +1,7 @@
 export const pagesRoutes = [
   ["v-184f4da6","/intro.html",{"t":"介绍页","i":"info","y":"a","e":"my introduction and profile","d":"2022-12-05","l":"2022年12月5日","u":true,"r":{"minutes":0.09,"words":28}},["/intro","/intro.md"]],
   ["v-8daa1a0e","/",{"t":"主页","i":"home","y":"h","e":".blog-hero .mask::after{ opacity: 0; } .theme-container .page.blog { padding-top: 0px; } .navbar { height: 50px; / line-height: 0px; / } .navbar .logo { height: 30px; margin-top: 5","r":{"minutes":0.87,"words":260}},["/index.html","/README.md"]],
-  ["v-2e3eac9e","/slides.html",{"t":"Slide page","i":"slides","y":"p","e":"@slidestart Slide Demo A simple slide demo and useful hints. \" By Mr.Hope. Please scroll mouse wheel down to the next slide\" --- Marking Slides 👇 -- Marking Slides Use --- to mark","r":{"minutes":3.26,"words":977}},["/slides","/slides.md"]],
+  ["v-2e3eac9e","/slides.html",{"t":"Slide page","i":"slides","y":"p","e":"@slidestart Slide Demo A simple slide demo and useful hints.\r\" By Mr.Hope. Please scroll mouse wheel down to the next slide\" --- Marking Slides 👇 -- Marking Slides Use --- to mark","r":{"minutes":3.26,"words":977}},["/slides","/slides.md"]],
   ["v-705c21a6","/archive/",{"t":"归档","y":"p","e":"归档","r":{"minutes":0.01,"words":4}},["/archive/index.html","/archive/README.md"]],
   ["v-a3e2d4e4","/finance/",{"t":"","y":"p","r":{"minutes":0.01,"words":2}},["/finance/index.html","/finance/README.md"]],
   ["v-4640bc38","/friend/",{"t":"","y":"p","e":"内容待补充...","r":{"minutes":0.03,"words":8}},["/friend/index.html","/friend/README.md"]],

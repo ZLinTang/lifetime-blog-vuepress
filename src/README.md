@@ -7,7 +7,7 @@ title: 主页
 heroText: 旅 途 的 风 景
 tagline: Never give up, be grateful
 heroFullScreen: false
-bgImage: /bg.jpg
+bgImage: /bg2.jpg
 bgImageStyle: {height: 600px}
 # projects:
 #   - icon: link
