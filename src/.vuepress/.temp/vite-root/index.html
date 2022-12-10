@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" data-theme="light">
+
+<head>
+
+</head>
+
+<body>
+    <div id="app">
+        <!--vuepress-ssr-app-->
+
+        <!--vuepress-ssr-scripts-->
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+        <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="1670302781181" m="1"></script>
+    </div>
+    <div id="page_end_html">
+        <!--看板娘 - 黑猫-->
+        <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+        <script>
+            L2Dwidget.init({
+                "model": {
+                    jsonPath: "https://unpkg.com/live2d-widget-model-tororo@1.0.5/assets/tororo.model.json",
+                    "scale": 1
+                },
+                "display": {
+                    "position": "left",
+                    "width": 70,
+                    "height": 100,
+                    "hOffset": 60,
+                    "vOffset": 0
+                },
+                "mobile": {
+                    "show": true,
+                    "scale": 0.5
+                },
+                "react": {
+                    "opacityDefault": 1,
+                    "opacityOnHover": 0.2
+                }
+            });
+            window.onload = function () {
+                $("#live2dcanvas").attr("style", "position: fixed; opacity: 1; left: 70px; bottom: 30px; z-index: 1; pointer-events: none;")
+            }
+        </script>
+    </div>
+<script type="module">
+import '@vuepress/client/app'
+</script>
+</body>
+
+</html>
