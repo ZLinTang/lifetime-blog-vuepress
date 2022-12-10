@@ -7,7 +7,7 @@
   "scripts": {
     "build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
-    "dev": "vuepress dev src"
+    "dev": "vuepress dev src --host 0.0.0.0"
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
