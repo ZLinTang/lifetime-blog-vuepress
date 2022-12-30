@@ -40,8 +40,8 @@ bgImageStyle: {height: 600px}
   #   desc: Detailed description of this custom item
   #   link: https://link.to.your.friend
 
-footer: customize your footer text
-
+footer: "vuepress&nbsp;|&nbsp;vuepress-theme-hope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙ICP备18029315号-2"
+copyright: "Copyright © 2022 ZLin"
 # <div id="page_end_html">
 #     <!--看板娘 - 黑猫-->
 #     <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>

@@ -18,7 +18,7 @@ export default hopeTheme({
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "docs",
-
+  // displayFooter: false,
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
@@ -69,12 +69,12 @@ export default hopeTheme({
       // sidebar
       sidebar: mySidebar,
 
-      footer: "默认页脚",
+      footer: "",
 
       displayFooter: true,
 
       blog: {
-        description: "一个旅途行者",
+        // description: "一个旅途行者",
         intro: "/intro.html",
       },
 
