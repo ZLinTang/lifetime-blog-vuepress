@@ -40,7 +40,7 @@ bgImageStyle: {height: 600px}
   #   desc: Detailed description of this custom item
   #   link: https://link.to.your.friend
 
-footer: "vuepress&nbsp;|&nbsp;vuepress-theme-hope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙ICP备18029315号-2"
+footer: vuepress&nbsp;|&nbsp;vuepress-theme-hope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://beian.miit.gov.cn'>粤ICP备2022156865号-1</a>
 copyright: "Copyright © 2022 ZLin"
 # <div id="page_end_html">
 #     <!--看板娘 - 黑猫-->
