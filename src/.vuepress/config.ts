@@ -8,7 +8,7 @@ const __dirname = getDirname(import.meta.url)
 export default defineUserConfig({
   base: "/",
   host: '0.0.0.0',
-  port: 8888,
+  port: 8899,
 
   locales: {
     "/": {
