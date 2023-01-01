@@ -103,17 +103,17 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
+      provider: "Giscus",
+      repo: "ZLinTang/lifetime-blog-comment",
+      repoId: "R_kgDOImKJJw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOImKJJ84CTWSq",
 
       /**
        * Using Twikoo
        */
-      provider: "Twikoo",
-      envId: "http://175.178.250.254:8099/",
+      // provider: "Twikoo",
+      // envId: "http://175.178.250.254:8099/",
 
       /**
        * Using Waline

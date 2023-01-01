@@ -13,7 +13,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "向日葵的旅行",
+      // title: "向日葵的旅行",
+      title: "漫谈大数据",
       description: "ZLin的个人博客",
     },
   },
